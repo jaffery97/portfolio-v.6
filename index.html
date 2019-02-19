@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+     <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127380965-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127380965-1');
+</script>
+    
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdquiry.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <br>
+    <Br>
+    <div class="card">
+        <br> <img src="/img/minecyrcle.png" alt="jafory" style="width:50%;border-style: double;border-radius: 100%; border-color:steelblue;">
+        <h1> Name</h1>
+        
+        <p class="title">Full Stack Web Developer</p>
+<!--
+        <p class="title">
+ <a href="mailto:contactme@mhjafory.com">contactme@mhjafory.com</a>
+        </p>
+-->
+        
+        
+        <div class="soia"> <a href="https://www.facebook.com/magfur.jafory"><img src="img/fbicon.png" alt="ficon" class="social"></a>
+                        <a href="#"><img src="img/igicon.png" alt="igicon" class="social"></a>
+                        <a href="#"> <img src="img/twicon.png" alt="ticon" class="social">
+            </a>
+                        <a href="#"> <img src="img/inicon.png" alt="lnicon" class="social">
+                            
+            </a>   
+                          <a href="https://www.youtube.com/channel/UCD8nhbxPg4DT0vqRxxpK6Kw/featured?view_as=subscriber"> <img src="img/yticon.png" alt="lnicon" class="social">
+                            
+            </a>  
+                        <a href="#"> <img src="img/github.png" alt="lnicon" class="social">
+                            
+            </a>
+
+                    </div>
+        
+        <p>
+            <button><a href="#" style="color: aliceblue;">Contact Me</a></button>
+        </p>
+    </div>
+    <div class="bg">
+        <form action="send.php" method="post">
+            
+            
+              <label for="lname">Job Type</label>   
+      <br>
+      <select id="lname" name="last_name">
+          <option value="Small">Small business promotion </option>
+          <option value="Interactive">Interactive design </option>
+          <option value="Corporate">Corporate design</option>
+          <option value="other">Other</option>
+        </select>
+      <br>
+     
+            
+            
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="first_name" placeholder="Your name..">
+<!--
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" placeholder="Your last name..">
+-->
+            <label for="country">E-mail</label>
+            <input type="text" id="country" name="email" placeholder="Your email">
+            <label for="country">Phone</label>
+            <input type="text" id="country" name="telephone" placeholder="111-111-1111">
+            <label for="subject">Description</label>
+            <textarea id="subject" name="comments" placeholder="details..." style="height:100px; width: 100%;"></textarea>
+            <input type="submit" value="Submit" class="btn"> </form>
+    </div>
+        <div class="car">    <button class="cnt"> <a href="#prt" style="color: aliceblue; text-decoration: none;"> SEE PORTFOLIO </a></button> </div>
+        
+<button class="open-button" onclick="openForm()">Contact Me</button>
+
+<div class="form-popup" id="myForm">
+
+  <form action="send.php" method="post" class="form-contaier">
+         <label for="lname">Job Type</label>   
+      <br>
+      <select id="lname" name="last_name">
+          <option value="Small">Small business promotion </option>
+          <option value="Interactive">Interactive design </option>
+          <option value="Corporate">Corporate design</option>
+          <option value="other">Other</option>
+        </select>
+      <br>
+     
+             <label for="fname">Name</label>
+            <input type="text" id="fname" name="first_name" placeholder="Your name..">
+            <label for="country">E-mail</label>
+            <input type="text" id="country" name="email" placeholder="Your email">
+            <label for="country">Phone</label>
+            <input type="text" id="country" name="telephone" placeholder="111-111-1111">
+            <label for="subject">Description</label>
+            <textarea id="subject" name="comments" placeholder="details..." style="height:100px; width: 100%;"></textarea>
+      
+            <input type="submit" value="Submit" class="btn"> </form>
+      
+    <button type="button" class="bt cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+<div style="height:100%"></div>
+
+
+<div class="timeline" >
+    
+    <div id="prt" >PORTFOLIO</div>
+  <div class="container left" >
+    <div class="content" >
+      <h2>2017</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content" >
+      <h2>2016</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2015</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2012</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2011</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2007</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+
+        
+</body>
+
+</html>
